@@ -4507,6 +4507,16 @@ GenL4.build.flags.fp=-mfpu=fpv4-sp-d16 -mfloat-abi=hard
 GenL4.build.series=STM32L4xx
 GenL4.build.cmsis_lib_gcc=arm_cortexM4lf_math
 
+# SERAPH
+GenL4.menu.pnum.SERAPH=Seraph
+GenL4.menu.pnum.SERAPH.upload.maximum_size=262144
+GenL4.menu.pnum.SERAPH.upload.maximum_data_size=65536
+GenL4.menu.pnum.SERAPH.build.board=SERAPH
+GenL4.menu.pnum.SERAPH.build.product_line=STM32L432xx
+GenL4.menu.pnum.SERAPH.build.variant=STM32L4xx/L432K(B-C)U_L442KCU
+GenL4.menu.pnum.SERAPH.build.variant_h=variant_{build.board}.h
+GenL4.menu.pnum.SERAPH.build.peripheral_pins=-DCUSTOM_PERIPHERAL_PINS
+
 # Swan R5
 GenL4.menu.pnum.SWAN_R5=Swan R5
 GenL4.menu.pnum.SWAN_R5.upload.maximum_size=2097152
