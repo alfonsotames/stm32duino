@@ -53,7 +53,7 @@
 #define PB4_ALT1                (PB4  | ALT1)
 #define PB5_ALT1                (PB5  | ALT1)
 
-#define NUM_DIGITAL_PINS        23
+#define NUM_DIGITAL_PINS        24
 #define NUM_ANALOG_INPUTS       7
 
 // On-board LED pin number
